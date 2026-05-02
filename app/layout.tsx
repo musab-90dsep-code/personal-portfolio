@@ -86,6 +86,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
       </head>
+      <meta name="google-site-verification" content="VQ9uxGB3y448z4KrIUlrWNFWOB5759eHBJRbztbUb-c" />
       <body className="bg-[#0a0c10] text-gray-50 antialiased selection:bg-[#00f2ff]/30 selection:text-[#00f2ff]" suppressHydrationWarning>
         <AnimatedBackground />
         {children}
