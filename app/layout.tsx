@@ -26,13 +26,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://musabkhan.dev', // Replace with your actual domain later
+    url: 'https://musabkhan.dev',
     siteName: 'Musab Khan Portfolio',
     title: 'Musab Khan | Digital Architect & Full-Stack Developer',
     description: 'Engineering high-performance, pixel-perfect digital solutions with modern web technologies.',
     images: [
       {
-        url: '/og-image.png', // You should put a screenshot of your site here later
+        url: '/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Musab Khan Portfolio Preview',
@@ -60,6 +60,10 @@ export const metadata: Metadata = {
     icon: '/logo.png',
     apple: '/logo.png',
   },
+  // ✅ গুগল ভেরিফিকেশন কোড এখানে যোগ করা হয়েছে
+  verification: {
+    google: 'VQ9uxGB3y448z4KrIUlrWNFWOB5759eHBJRbztbUb-c',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -86,7 +90,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
       </head>
-      <meta name="google-site-verification" content="VQ9uxGB3y448z4KrIUlrWNFWOB5759eHBJRbztbUb-c" />
+      {/* ✅ এখান থেকে ভুল <meta> ট্যাগটি মুছে ফেলা হয়েছে */}
       <body className="bg-[#0a0c10] text-gray-50 antialiased selection:bg-[#00f2ff]/30 selection:text-[#00f2ff]" suppressHydrationWarning>
         <AnimatedBackground />
         {children}
