@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://musabkhan.dev/sitemap.xml',
+    sitemap: 'https://personal-portfolio-livid-psi-80.vercel.app/sitemap.xml',
   };
 }

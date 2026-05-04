@@ -14,7 +14,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://musabkhan.dev'),
+  metadataBase: new URL('https://personal-portfolio-livid-psi-80.vercel.app'),
   title: {
     default: 'Musab Khan | Digital Architect & Full-Stack Developer',
     template: '%s | Musab Khan'
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://musabkhan.dev', // Replace with your actual domain later
+    url: 'https://personal-portfolio-livid-psi-80.vercel.app', // Replace with your actual domain later
     siteName: 'Musab Khan Portfolio',
     title: 'Musab Khan | Digital Architect & Full-Stack Developer',
     description: 'Engineering high-performance, pixel-perfect digital solutions with modern web technologies.',
@@ -73,7 +73,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "@context": "https://schema.org",
               "@type": "Person",
               "name": "Musab Khan",
-              "url": "https://musabkhan.dev",
+              "url": "https://personal-portfolio-livid-psi-80.vercel.app",
               "jobTitle": "Full-Stack Developer",
               "sameAs": [
                 "https://www.linkedin.com/in/musabkhan-dev",
@@ -86,6 +86,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
       </head>
+      <meta name="google-site-verification" content="VQ9uxGB3y448z4KrIUlrWNFWOB5759eHBJRbztbUb-c" />
       <body className="bg-[#0a0c10] text-gray-50 antialiased selection:bg-[#00f2ff]/30 selection:text-[#00f2ff]" suppressHydrationWarning>
         <AnimatedBackground />
         {children}
