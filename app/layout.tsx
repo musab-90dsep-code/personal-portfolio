@@ -26,13 +26,13 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://personal-portfolio-livid-psi-80.vercel.app', // Replace with your actual domain later
+    url: 'https://personal-portfolio-livid-psi-80.vercel.app',
     siteName: 'Musab Khan Portfolio',
     title: 'Musab Khan | Digital Architect & Full-Stack Developer',
     description: 'Engineering high-performance, pixel-perfect digital solutions with modern web technologies.',
     images: [
       {
-        url: '/og-image.png', // You should put a screenshot of your site here later
+        url: '/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Musab Khan Portfolio Preview',
@@ -59,6 +59,9 @@ export const metadata: Metadata = {
   icons: {
     icon: '/logo.png',
     apple: '/logo.png',
+  },
+  verification: {
+    google: 'VQ9uxGB3y448z4KrIUlrWNFWOB5759eHBJRbztbUb-c',
   },
 };
 
