@@ -14,7 +14,6 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  // ✅ এখানে Vercel লিংক দেওয়া হয়েছে
   metadataBase: new URL('https://personal-portfolio-livid-psi-80.vercel.app'),
   title: {
     default: 'Musab Khan | Digital Architect & Full-Stack Developer',
@@ -27,7 +26,6 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    // ✅ এখানে Vercel লিংক দেওয়া হয়েছে
     url: 'https://personal-portfolio-livid-psi-80.vercel.app',
     siteName: 'Musab Khan Portfolio',
     title: 'Musab Khan | Digital Architect & Full-Stack Developer',
@@ -78,7 +76,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "@context": "https://schema.org",
               "@type": "Person",
               "name": "Musab Khan",
-              // ✅ এখানে Vercel লিংক দেওয়া হয়েছে
               "url": "https://personal-portfolio-livid-psi-80.vercel.app",
               "jobTitle": "Full-Stack Developer",
               "sameAs": [
@@ -92,6 +89,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           }}
         />
       </head>
+      <meta name="google-site-verification" content="VQ9uxGB3y448z4KrIUlrWNFWOB5759eHBJRbztbUb-c" />
       <body className="bg-[#0a0c10] text-gray-50 antialiased selection:bg-[#00f2ff]/30 selection:text-[#00f2ff]" suppressHydrationWarning>
         <AnimatedBackground />
         {children}
