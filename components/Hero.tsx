@@ -178,9 +178,7 @@ export default function Hero() {
               <span className="relative flex items-center gap-2">Explore Work <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" /></span>
             </a>
 
-            <a href="#contact" className="px-8 py-4 bg-[#0a0c10]/50 border border-[#00f2ff]/30 hover:border-[#00f2ff] text-white font-semibold rounded-xl backdrop-blur-md hover:bg-[#00f2ff]/10 hover:shadow-[0_0_15px_rgba(0,242,255,0.15)] transition-all duration-300">
-              Contact Me
-            </a>
+
           </motion.div>
 
           {/* Mobile Social Icons */}

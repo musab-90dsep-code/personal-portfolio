@@ -16,7 +16,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://personal-portfolio-livid-psi-80.vercel.app'),
+  metadataBase: new URL('https://musabkhan.vercel.app'),
   title: {
     default: 'Musab Khan | Digital Architect & Full-Stack Developer',
     template: '%s | Musab Khan'
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://personal-portfolio-livid-psi-80.vercel.app',
+    url: 'https://musabkhan.vercel.app',
     siteName: 'Musab Khan Portfolio',
     title: 'Musab Khan | Digital Architect & Full-Stack Developer',
     description: 'Engineering high-performance, pixel-perfect digital solutions with modern web technologies.',
@@ -78,7 +78,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               "@context": "https://schema.org",
               "@type": "Person",
               "name": "Musab Khan",
-              "url": "https://personal-portfolio-livid-psi-80.vercel.app",
+              "url": "https://musabkhan.vercel.app",
               "jobTitle": "Full-Stack Developer",
               "sameAs": [
                 "https://www.linkedin.com/in/musabkhan-dev",
