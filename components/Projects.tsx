@@ -11,7 +11,7 @@ const projects = [
     description: "A comprehensive Enterprise Resource Planning (ERP) platform designed to centralize business operations, including financial accounting, inventory management, and real-time reporting.",
     fullDetails: "LedgerGhor is a robust ERP system built to streamline enterprise-level workflows. It features a sophisticated general ledger system, multi-branch inventory tracking, and automated financial reporting. Engineered with a Next.js frontend and a Django backend, the platform ensures high data integrity and performance, utilizing Redis for real-time concurrency management and PostgreSQL for complex relational data.",
     tech: ["Next.js", "Django", "PostgreSQL", "TypeScript", "Tailwind CSS"],
-    category: "Fullstack / ERP",
+    category: "Fullstack",
     images: [
       "/erp1.png",
       "/erp2.png",
@@ -21,6 +21,48 @@ const projects = [
     size: "col-span-1 md:col-span-2 row-span-2",
     liveLink: "https://www.ledgerghor.shop/",
     codeLink: "#"
+  },
+  {
+    title: "EduCore: Multi-Tenant School Ecosystem",
+    description: "A modern, multi-tenant academic ERP designed to unify school administrators, teachers, students, and parent portals under a single platform.",
+    fullDetails: "EduCore is a next-generation SaaS application engineered for school administration and digital education. Built on a robust multi-tenant architecture, it supports automated digital examination boards, fee collections via integrated gateways, dynamic user privilege groups, and streamlined student admission workflows. Features custom-tailored dashboards and teacher grading panels with highly responsive, real-time feedback loops.",
+    tech: ["Next.js", "React", "Tailwind CSS", "Node.js", "MongoDB", "TypeScript"],
+    category: "Fullstack",
+    images: [
+      "/educore1.png"
+    ],
+    color: "from-[#4f46e5]/30",
+    size: "col-span-1 row-span-1",
+    liveLink: "https://demo-scool.vercel.app/",
+    codeLink: "#"
+  },
+  {
+    title: "Dokan: Localized Rod & Cement ERP",
+    description: "A fully localized Bengali ERP platform tailored for heavy-industry retail, featuring real-time stock alerts, credit sales pipelines, and transactional ledgers.",
+    fullDetails: "Dokan is a custom-built, enterprise-grade ERP solution designed for steel and cement merchants in Bangladesh. Styled with a premium gold and dark-gray aesthetic, it streamlines daily merchant workflows by managing credit sales (Dues), automated billing, raw material processing, and real-time inventory threshold alerts. The system is fully localized in Bengali (Bangla) to provide retail staff with maximum operational accessibility.",
+    tech: ["Next.js", "Django", "PostgreSQL", "Tailwind CSS", "TypeScript"],
+    category: "Fullstack",
+    images: [
+      "/dokan1.png"
+    ],
+    color: "from-[#f97316]/30",
+    size: "col-span-1 row-span-1",
+    liveLink: "https://dokan-nu.vercel.app/",
+    codeLink: "#"
+  },
+  {
+    title: "MusabKhan: 3D Personal Portfolio",
+    description: "A premium, award-winning personal portfolio featuring interactive animations, smooth page transitions, and stunning dark mode aesthetics.",
+    fullDetails: "MusabKhan Portfolio is an interactive, high-performance personal developer portfolio designed to showcase digital excellence. It combines cutting-edge frontend animations using Motion (Framer Motion) and custom WebGL shaders to create immersive 3D space themes. Optimized for extreme responsiveness and blazing-fast performance, it serves as a central hub for all my professional projects and contact channels.",
+    tech: ["Next.js", "React", "Motion", "Tailwind CSS", "TypeScript"],
+    category: "Frontend",
+    images: [
+      "/portfolio_v2.png"
+    ],
+    color: "from-[#00f2ff]/30",
+    size: "col-span-1 md:col-span-3 row-span-1",
+    liveLink: "https://musabkhan.vercel.app/",
+    codeLink: "https://github.com/musab-90dsep-code/personal-portfolio"
   },
   {
     title: "Markazul Fikri Wad Dawah",
@@ -66,7 +108,7 @@ const projects = [
       "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1200&auto=format&fit=crop"
     ],
     color: "from-[#10b981]/30",
-    size: "col-span-1 md:col-span-3 row-span-1",
+    size: "col-span-1 row-span-1",
     liveLink: "#",
     codeLink: "#"
   },

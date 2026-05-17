@@ -34,8 +34,8 @@ export default function Contact() {
                 {
                   icon: <Phone />,
                   label: "Phone",
-                  value: "+880 1335357855",
-                  href: "tel:+8801335357855",
+                  value: "+880 1349345353",
+                  href: "tel:+8801349345353",
                   color: "text-[#10b981]"
                 },
                 {
