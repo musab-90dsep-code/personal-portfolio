@@ -3,7 +3,7 @@
 import { motion } from 'motion/react';
 
 export default function WhatsAppButton() {
-  const phoneNumber = "8801335357855"; // Your WhatsApp number
+  const phoneNumber = "8801349345353"; // Your WhatsApp number
   const message = "Hello Musab! I'm interested in your services.";
   const waLink = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
