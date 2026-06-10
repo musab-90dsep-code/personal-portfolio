@@ -4,6 +4,7 @@ import './globals.css'; // Global styles
 import AnimatedBackground from '@/components/AnimatedBackground';
 import Preloader from '@/components/Preloader';
 import WhatsAppButton from '@/components/WhatsAppButton';
+import { Analytics } from '@vercel/analytics/react';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -96,6 +97,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <WhatsAppButton />
         <AnimatedBackground />
         {children}
+        <Analytics />
       </body>
     </html>
   );

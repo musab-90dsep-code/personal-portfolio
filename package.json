@@ -14,6 +14,7 @@
     "@hookform/resolvers": "^5.2.1",
     "@tsparticles/react": "^3.0.0",
     "@tsparticles/slim": "^3.9.1",
+    "@vercel/analytics": "^2.0.1",
     "autoprefixer": "^10.5.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
@@ -25,7 +26,8 @@
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
     "react-qr-code": "^2.0.21",
-    "tailwind-merge": "^3.3.1"
+    "tailwind-merge": "^3.3.1",
+    "@vercel/analytics": "^1.5.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "4.1.11",
