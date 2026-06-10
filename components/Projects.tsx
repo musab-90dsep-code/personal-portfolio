@@ -243,10 +243,10 @@ export default function Projects() {
           fill
           priority={index === 0}
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          className="object-cover opacity-60 group-hover:opacity-80 group-hover:scale-105 transition-all duration-700 ease-out"
+          className="object-cover opacity-85 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out"
         />
-        <div className={`absolute inset-0 bg-gradient-to-t ${project.color} to-transparent mix-blend-overlay opacity-60`} />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0c10] via-[#0a0c10]/40 to-transparent" />
+        <div className={`absolute inset-0 bg-gradient-to-t ${project.color} to-transparent mix-blend-overlay opacity-30`} />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0c10] via-[#0a0c10]/20 to-transparent" />
       </div>
 
       <div className="absolute inset-0 z-10 p-6 md:p-8 flex flex-col justify-between">

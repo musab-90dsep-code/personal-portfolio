@@ -41,7 +41,7 @@ export default function Freelance() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {/* Upwork */}
           <motion.a
-            href="#"
+            href="https://www.upwork.com/freelancers/~016b75df91d343543b?mp_source=share"
             target="_blank"
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -67,7 +67,7 @@ export default function Freelance() {
 
           {/* Fiverr */}
           <motion.a
-            href="#"
+            href="https://www.fiverr.com/s/yvKl1p0"
             target="_blank"
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}

@@ -7,7 +7,7 @@ import { ArrowRight, Github, Linkedin, Twitter, Facebook, Instagram } from 'luci
 import { useState, useEffect } from 'react';
 
 function TypewriterHeading() {
-  const text = "Digital Excellence";
+  const text = "Software Engineer";
   const [chars, setChars] = useState(0);
 
   useEffect(() => {
@@ -27,7 +27,7 @@ function TypewriterHeading() {
   }, []);
 
   return (
-    <span className="relative block mt-1 md:mt-2 text-[2.75rem] sm:text-5xl md:text-7xl lg:text-[6.5rem] tracking-tighter min-h-[1.2em]">
+    <span className="relative block mt-1 md:mt-2 text-[2.25rem] sm:text-4xl md:text-5xl lg:text-[4.5rem] tracking-tighter min-h-[1.2em]">
       <span className="opacity-0 select-none pointer-events-none" aria-hidden="true">
         {text}
       </span>
@@ -158,10 +158,10 @@ export default function Hero() {
             <span className="text-[11px] font-bold text-gray-300 uppercase tracking-[0.2em]">Available for Hire</span>
           </motion.div>
 
-          <h1 className="text-[3.5rem] leading-[1.1] sm:text-6xl md:text-7xl lg:text-[6.5rem] font-display font-extrabold text-white md:leading-[1.05] tracking-tight mb-5 md:mb-6 drop-shadow-md">
-            Musab
+          <h1 className="text-[3.0rem] leading-[1.1] sm:text-5xl md:text-6xl lg:text-[5rem] font-display font-extrabold text-white md:leading-[1.05] tracking-tight mb-5 md:mb-6 drop-shadow-md">
+            Musab{' '}
             <br className="block md:hidden" />
-            <span className="ml-1 md:ml-0">Khan</span>
+            <span>Khan</span>
             <TypewriterHeading />
           </h1>
 
